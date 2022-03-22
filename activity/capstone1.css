@@ -1,0 +1,27 @@
+*{
+	/*CSS Reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Merriweather', serif;
+}
+
+#banner{
+	background-image:  url(https://images.pexels.com/photos/9726802/pexels-photo-9726802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+/*stretch image*/
+background-size: cover;
+/*select part of bkgd img used for cover*/
+background-position: center;
+}
+
+#gmap{
+	height: 60vh;
+	width: 100%;
+	padding-left: 10%;
+}
+
+#icon{
+	font-size: 2rem;
+	color: white;
+}
