@@ -23,6 +23,12 @@ nav{
 	background-color: lightcoral;
 }
 
+.navbar-nav{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
 #navbarSupportedContent > ul{
 	margin-right: auto;
 }
@@ -75,6 +81,15 @@ justify-content: left;
 	border-radius: 25px;
 }
 
+#socials > a{
+	color: lightcoral;
+}
+
+#projects{
+	background-color: blanchedalmond;
+	padding-bottom: 16px;
+}
+
 #projects > h2, #projects > div{
 	margin-bottom: 48px;
 	margin-top: 48px;
@@ -114,11 +129,6 @@ justify-content: left;
 }
 
 footer{
-	background-color: lightcoral;
-	color: white;
-}
-
-footer a{
 	color: white;
 	text-align: center;
 	margin-left: 16px;
@@ -126,4 +136,5 @@ footer a{
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin-bottom: 8px;
+	background-color: lightcoral;
 }
