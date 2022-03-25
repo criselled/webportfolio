@@ -39,7 +39,7 @@ nav form, nav button{
 }
 
 #banner{
-	background-image:  url(home.png);
+	background-image:  url(./images/home.png);
 
 /*stretch image*/
 background-size: cover;
